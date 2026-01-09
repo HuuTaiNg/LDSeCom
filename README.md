@@ -14,7 +14,7 @@ Experimental results on benchmark datasets demonstrate that LDSeCom achieves com
 
 The Python code provided here are included in the version of the paper in ICT Express.
 
-Thien Huynh-The, Toan-Van Nguyenb, Phuong Luu Vo, and Huu-Tai Nguyen, "A Lightweight-to-Diffusion Framework for Semantic Image Communications," in ICT Express, doi: 10.1016/j.icte.2025.12.013, 2025. [[Link](https://www.sciencedirect.com/science/article/pii/S2405959525002127)]
+Thien Huynh-The, Toan-Van Nguyen, Phuong Luu Vo, and Huu-Tai Nguyen, "A Lightweight-to-Diffusion Framework for Semantic Image Communications," in ICT Express, doi: 10.1016/j.icte.2025.12.013, 2025. [[Link](https://www.sciencedirect.com/science/article/pii/S2405959525002127)]
 
 If there are any errors or topics that need to be discussed, please contact [Huu-Tai Nguyen](https://github.com/HuuTaiNg) via email at n.huutai231@gmail.com.
 
