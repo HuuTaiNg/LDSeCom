@@ -21,8 +21,6 @@ if __name__ == '__main__':
     print(f"Number of train dataset: {len(train_dataset)}")
     print(f"Number of val dataset: {len(val_dataset)}")
     print(f"Number of test dataset: {len(test_dataset)}")
-    from torch.utils.data import ConcatDataset
-    train_dataset = ConcatDataset([train_dataset, val_dataset])
     train_loader = DataLoader(train_dataset, batch_size=2, shuffle=True)
     val_loader = DataLoader(val_dataset, batch_size=2, shuffle=False)
     test_loader = DataLoader(test_dataset, batch_size=2, shuffle=False)
@@ -72,4 +70,5 @@ if __name__ == '__main__':
     if isinstance(segmentation_model, torch.nn.DataParallel):
         segmentation_model = segmentation_model.module
     model_save = torch.jit.script(segmentation_model)
+
     model_save.save("LSNet.pt")
